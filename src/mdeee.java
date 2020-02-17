@@ -1,7 +1,11 @@
 import java.util.Scanner;
 public class mdeee {
-
-	public static void main(String args[]) {
+	
+	public static void main (String[] args) {
+		
+		drawRectangle (6, 5);
+	}
+	public static void drawRectangle (int height, int width) {
 		int x, y;
 		System.out.print("¬ведите высоту пр€моугольника: ");
 		Scanner scn = new Scanner(System.in);
@@ -29,3 +33,4 @@ public class mdeee {
 		System.out.println();
 	}
 }
+
