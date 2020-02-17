@@ -2,7 +2,12 @@ import java.util.Scanner;
 
 public class wooord {
 
-	public static void main(String[] args) {
+	
+
+		public static void main(String[] args) {
+			countWords (10);
+		}
+			public static void countWords (int length ) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.print("¬ведите текст: ");

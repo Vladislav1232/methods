@@ -4,6 +4,10 @@ import java.util.Arrays;
 public class separated {
 
 	public static void main(String[] args) {
+		arrayLength (2);
+	}
+		public static void arrayLength (int lenth) {
+		
 		Scanner a = new Scanner(System.in);
 		System.out.print("¬ведите длину массива: ");
 		int mas = a.nextInt();
